@@ -37,7 +37,7 @@ It uses MongoDB Atlas as the database and Nodemailer for email verification.
 ## 🚀 Live Demo
 
 👉 Deployed on Vercel  
-(Add your deployed link here)
+(https://authapp-pearl.vercel.app/login)
 
 ---
 
