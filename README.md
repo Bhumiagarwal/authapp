@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🔐 Next.js Authentication System
 
 ## Getting Started
 
@@ -14,23 +14,110 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A full-stack authentication system built using **Next.js App Router**, **MongoDB Atlas**, and **JWT**, featuring email verification and secure user authentication.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📌 Description
 
-## Learn More
+This project implements a complete authentication workflow including:
 
-To learn more about Next.js, take a look at the following resources:
+- User Signup
+- Email Verification
+- Secure Login
+- JWT-based Authentication
+- Protected Routes
+- Profile Page
+- Logout Functionality
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+It uses MongoDB Atlas as the database and Nodemailer for email verification.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Live Demo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👉 Deployed on Vercel  
+(Add your deployed link here)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- ⚡ Next.js 14 (App Router)
+- 🎨 Tailwind CSS
+- 📦 Axios
+- 🔥 React Hot Toast
+
+### Backend
+- 🟢 Node.js (API Routes)
+- 🍃 MongoDB Atlas
+- 🧩 Mongoose
+- 🔐 JSON Web Tokens (JWT)
+- ✉️ Nodemailer (Email Verification)
+- 🔒 bcrypt / crypto (Token handling)
+
+### Deployment
+- ▲ Vercel
+
+---
+
+## ✨ Features
+
+- ✅ User Registration
+- ✅ Secure Password Hashing
+- ✅ Email Verification via Token
+- ✅ JWT Authentication
+- ✅ Protected Profile Page
+- ✅ Logout with Cookie Clearing
+- ✅ Environment Variable Configuration
+- ✅ MongoDB Atlas Cloud Database
+- ✅ Production Deployment Ready
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file with:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+TOKEN_SECRET=your_secret_key
+DOMAIN=http://localhost:3000
+```
+
+## 🔐 Authentication Flow
+
+1. **User signs up**
+2. **Verification email is sent**
+3. **User clicks verification link**
+4. **Token validated in database**
+5. **User account marked as verified**
+6. **User can login and access protected routes**
+
+---
+
+## 🧠 Learning Highlights
+
+- Working with **Next.js App Router API routes**
+- Secure token generation
+- MongoDB Atlas cloud connection
+- Environment variable handling
+- Debugging production deployment issues
+- Git & GitHub workflow
+- Vercel deployment process
+
+---
+
+## 👩‍💻 Author
+
+**Bhumi Agarwal**
+
+💼 Information Technology Student  
+🌱 Passionate about Full Stack Development  
+
+🔗 GitHub: [Bhumiagarwal](https://github.com/Bhumiagarwal)  
+🔗 LinkedIn: (https://www.linkedin.com/in/bhumi-agarwal-90aa3b285/)
+
+
+
