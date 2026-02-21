@@ -117,7 +117,7 @@ DOMAIN=http://localhost:3000
 🌱 Passionate about Full Stack Development  
 
 🔗 GitHub: [Bhumiagarwal](https://github.com/Bhumiagarwal)  
-🔗 LinkedIn: (https://www.linkedin.com/in/bhumi-agarwal-90aa3b285/)
+🔗 LinkedIn: [Bhumiagarwal](https://www.linkedin.com/in/bhumi-agarwal-90aa3b285/)
 
 
 
